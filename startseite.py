@@ -23,7 +23,7 @@ def check_password():
 # ------------------ App Inhalt ------------------ #
 if check_password():
     st.set_page_config(page_title="Plenum Tools", layout="centered")
-    st.title("🔧 Vertriebsprovision Reuss Private Access Tool Startseite")
+    st.title("🔧 Vertriebsprovision Tool Startseite")
     st.markdown("Willkommen! Wähle unten das gewünschte Tool:")
 
     st.markdown("### 1️⃣ Vertriebsprovision berechnen")
@@ -39,4 +39,4 @@ if check_password():
     st.link_button("➡️ Öffnen", "https://holding-mapping.streamlit.app")
 
     st.markdown("---")
-    st.caption("🔐 Zugriff nur mit Passwort – vertraulich © Plenum AG")
+    st.caption("🔐 Zugriff nur mit Passwort – vertraulich © Reuss Private Access AG")
