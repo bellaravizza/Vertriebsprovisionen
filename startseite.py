@@ -23,7 +23,7 @@ def check_password():
 # ------------------ App Inhalt ------------------ #
 if check_password():
     st.set_page_config(page_title="Plenum Tools", layout="centered")
-    st.title("🔧 Plenum Tool Startseite")
+    st.title("🔧 Vertriebsprovision Reuss Private Access Tool Startseite")
     st.markdown("Willkommen! Wähle unten das gewünschte Tool:")
 
     st.markdown("### 1️⃣ Vertriebsprovision berechnen")
